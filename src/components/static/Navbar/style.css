@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid #f3f3f3;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  /* margin-left: 2rem; */
+}
+
+.nav-container input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 30rem;
+  margin-left: 6rem;
+}
+
+nav .nav-container input::placeholder {
+    font-weight: 600;
+}
+
+.profile-container a {
+    text-decoration: none;
+}
+
+.profile-container a i {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  font-size: 18px;
+  color: #2a2a2a;
+}
